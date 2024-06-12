@@ -6,7 +6,8 @@ import {AggregatorV3Interface} from "../../src/morpho-chainlink/interfaces/Aggre
 
 AggregatorV3Interface constant feedZero = AggregatorV3Interface(address(0));
 // 8 decimals of precision
-AggregatorV3Interface constant btcUsdFeed = AggregatorV3Interface(0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c);
+// AggregatorV3Interface constant btcUsdFeed = AggregatorV3Interface(0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c);
+AggregatorV3Interface constant btcUsdFeed = AggregatorV3Interface(0x24C392CDbF32Cf911B258981a66d5541d85269ce); // Chronicle yo
 // 8 decimals of precision
 AggregatorV3Interface constant usdcUsdFeed = AggregatorV3Interface(0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6);
 // 18 decimals of precision
@@ -18,7 +19,8 @@ AggregatorV3Interface constant stEthEthFeed = AggregatorV3Interface(0x86392dC19c
 // 18 decimals of precision
 AggregatorV3Interface constant usdcEthFeed = AggregatorV3Interface(0x986b5E1e1755e3C2440e960477f25201B0a8bbD4);
 // 8 decimals of precision
-AggregatorV3Interface constant ethUsdFeed = AggregatorV3Interface(0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419);
+// AggregatorV3Interface constant ethUsdFeed = AggregatorV3Interface(0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419);
+AggregatorV3Interface constant ethUsdFeed = AggregatorV3Interface(0x46ef0071b1E2fF6B42d36e5A177EA43Ae5917f4E); // Chronicle
 // 18 decimals of precision
 AggregatorV3Interface constant daiEthFeed = AggregatorV3Interface(0x773616E4d11A78F511299002da57A0a94577F1f4);
 
